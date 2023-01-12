@@ -15,19 +15,19 @@
                             <v-list-item-title>
                             </v-list-item-title>
                             <v-list-item-subtitle>
-                                OrderId :  {{item.orderId }}
+                                Menu :  {{item.menu }}
                             </v-list-item-subtitle>
                             <v-list-item-subtitle>
                                 OrderStatus :  {{item.orderStatus }}
+                            </v-list-item-subtitle>
+                            <v-list-item-subtitle>
+                                OrderDate :  {{item.orderDate }}
                             </v-list-item-subtitle>
                             <v-list-item-subtitle>
                                 UserId :  {{item.userId }}
                             </v-list-item-subtitle>
                             <v-list-item-subtitle>
                                 OrderCount :  {{item.orderCount }}
-                            </v-list-item-subtitle>
-                            <v-list-item-subtitle>
-                                OrderDate :  {{item.orderDate }}
                             </v-list-item-subtitle>
                         </v-list-item-content>
 

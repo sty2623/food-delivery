@@ -68,11 +68,11 @@
             me.values = temp.data._embedded.orders;
             
             me.newValue = {
-                'orderId': '',
+                'menu': '',
                 'orderStatus': '',
+                'orderDate': '2023-01-12',
                 'userId': '',
                 'orderCount': '',
-                'orderDate': '2023-01-11',
             }
         },
         methods:{
