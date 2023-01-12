@@ -113,7 +113,7 @@
                 'menu': '',
                 'orderStatus': '',
                 'deliveryInfo': '',
-                'deliveryDate': '2023-01-11',
+                'deliveryDate': '2023-01-12',
                 'userId': '',
                 'riderId': '',
             }

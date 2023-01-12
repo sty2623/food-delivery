@@ -52,6 +52,7 @@ public class OrderStatusViewHandler {
                  OrderStatus orderStatus = orderStatusOptional.get();
             // view 객체에 이벤트의 eventDirectValue 를 set 함
                 orderStatus.setOrderStatus(orderCancled.getOrderStatus());    
+                orderStatus.setOrderCount(0);    
                 // view 레파지 토리에 save
                  orderStatusRepository.save(orderStatus);
                 }
@@ -92,6 +93,7 @@ public class OrderStatusViewHandler {
                  OrderStatus orderStatus = orderStatusOptional.get();
             // view 객체에 이벤트의 eventDirectValue 를 set 함
                 orderStatus.setOrderStatus(orderRejected.getOrderStatus());    
+                orderStatus.setOrderCount(0);    
                 // view 레파지 토리에 save
                  orderStatusRepository.save(orderStatus);
                 }
